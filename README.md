@@ -124,5 +124,5 @@ Ablation study results for the MasLVM. The first column shows the original image
 
 Illustrations of two separate ablation studies. In (a), Column I displays the original image, Column II shows the  intermediate feature map produced using only SCE, Column III presents the result with two encoder branches incorporating SCE and HDME, Column IV represents the output with SCE and SSE, and Column V shows the output with all three encoder branches combined. In (b), Column I is the original image, Column II shows the result without KAN Channel Attention and MFFM, Column III presents the output without MFFM, Column IV displays the  intermediate feature map displayed without KAN Channel Attention, and Column V includes both modules.
 
-##Model weight
+
 
