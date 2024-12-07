@@ -9,7 +9,7 @@ Hangzhou Dianzi University IMOP-lab
 ## Methods
 ### MasLVM
 <div align=center>
-  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/MasLVM.png"width=90% height=90%>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/MasLVM.png"width=100% height=100%>
 </div>
 <p align=center>
   Figure 1: Schematic diagram of MasLVM, including an SCE branch, an SSE branch, an HDME branch, and a Multi-Attention KAN Decoder. The 2D input image is first processed through Tri-Path encoder to extract three corresponding types of features. In mKAN, these features are simultaneously fed into the KAN multiple self-attention and iAFF modules for fusion to produce the output.
