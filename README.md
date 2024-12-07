@@ -9,7 +9,7 @@ Hangzhou Dianzi University IMOP-lab
 ## Methods
 ### MasLVM
 <div align=center>
-  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/MasLVM.png"width=70% height=70%>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/MasLVM.png"width=90% height=90%>
 </div>
 <p align=center>
   Figure 1: Schematic diagram of MasLVM, including an SCE branch, an SSE branch, an HDME branch, and a Multi-Attention KAN Decoder. The 2D input image is first processed through Tri-Path encoder to extract three corresponding types of features. In mKAN, these features are simultaneously fed into the KAN multiple self-attention and iAFF modules for fusion to produce the output.
@@ -19,7 +19,7 @@ We propose the MasLVM system, by encompassing extensive pretraining on both natu
 
 #### Semantic Context Encoder
 <div align=center>
-  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/SCE.png"width=70% height=70%>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/SCE.png"width=50% height=50%>
 </div>
 <p align=center>
   Figure 2: The SCE commences the 2D input image through a patch embedding layer, followed by 16 Transformer layers. The feature output from the fourth layer is taken as the intermediate embedding, while the output from the final layer is taken as the image embedding. These two features are then plus to obtain the SCE feature. "pos_embed" presents the position embedding. "patch_embed" presents the patch embedding.
@@ -27,7 +27,7 @@ We propose the MasLVM system, by encompassing extensive pretraining on both natu
 
 #### Spectral Spline Encoder
 <div align=center>
-  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/SSE.png"width=70% height=70%>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/SSE.png"width=50% height=50%>
 </div>
 <p align=center>
   Figure 3: The SSE initially processes the input image through a convolutional layer, followed by a series of MFFM, max pooling convolutions, and KAN Channel Attention, alternating through these layers. Post MFFM, two sequential convolutional layers generate SSE Features. The schematic of the MFFM contains two inputs: the feature after the conv layer and the low-frequency feature, both are weighted and combined followed by the IFFT to obtain the output.
@@ -35,7 +35,7 @@ We propose the MasLVM system, by encompassing extensive pretraining on both natu
 
 #### Hierarchical Deformable Morphometry Encoder
 <div align=center>
-  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/HDME.png"width=70% height=70%>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/HDME.png"width=50% height=50%>
 </div>
 <p align=center>
   Figure 4: The HDME processes the input through convolutional blocks and max pooling layers, advancing into a dense module for feature aggregation, followed by additional convolutional layers, culminating in HDME Features.
