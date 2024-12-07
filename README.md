@@ -42,3 +42,87 @@ We propose the MasLVM system, by encompassing extensive pretraining on both natu
 </p>
 
 ## Experiment
+The proposed segmentation framework was systematically evaluated on six widely recognized benchmark datasets.
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ISIC 2017.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 5: Comparative experimental results on the ISIC 2017 dataset.
+</p>
+
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ISIC 2018.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 6: Comparative experimental results on the ISIC 2018 dataset.
+</p>
+
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/PH2.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 7: Comparative experimental results on the PH2 dataset.
+</p>
+
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/CVC.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 8: Comparative experimental results on the CVC-ClinicDB dataset.
+</p>
+
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/SEG.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 9: Comparative experimental results on the Kvasir-SEG dataset.
+</p>
+
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/Poly.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 9: Comparative experimental results on the Polypgen dataset.
+</p>
+
+### Ablation
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/Results.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 9:Visual segmentation performance.
+</p>
+
+Ablation study results for the MasLVM. The first column shows the original images, followed by segmentation results from each configuration (labeled k, a, b, c, d, e, f, g, h, i, j) in order as follows: (a) No Pre-train, (b) No HDME, (c) No SSE, (d) No SSE and HDME, (e) No MFFM, (f) No KAN Channel Attention, (g) No MFFM and KAN Channel Attention, (h) No iAFF, (i) No KAN multiple self-attention, (j) No iAFF and KAN multiple self-attention and (k) our proposed MasLVM.
+
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ablation1.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 9:Analysis experiments to evaluate the effectiveness and robustness of the Tri-Path encoder on the ISIC 2017.
+</p>
+
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ablation2.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 10:Analysis experiments to evaluate the effectiveness of the KAN channel attention and MFFM in SSE on the ISIC 2017.
+</p>
+
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ablation3.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 11:Analysis experiments to evaluate the effectiveness of the iAFF and KAN multiple self-attention in mKAN on the ISIC 2017
+
+<div align=center>
+  <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ablation4.png"width=50% height=50%>
+</div>
+<p align=center>
+  Figure 12:Visual segmentation performance.
+</p>
+
+Illustrations of two separate ablation studies. In (a), Column I displays the original image, Column II shows the  intermediate feature map produced using only SCE, Column III presents the result with two encoder branches incorporating SCE and HDME, Column IV represents the output with SCE and SSE, and Column V shows the output with all three encoder branches combined. In (b), Column I is the original image, Column II shows the result without KAN Channel Attention and MFFM, Column III presents the output without MFFM, Column IV displays the  intermediate feature map displayed without KAN Channel Attention, and Column V includes both modules.
+
+##Model weight
+
