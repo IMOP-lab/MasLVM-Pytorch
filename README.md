@@ -82,7 +82,7 @@ The proposed segmentation framework was systematically evaluated on six widely r
   <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/Poly.png"width=50% height=50%>
 </div>
 <p align=center>
-  Figure 9: Comparative experimental results on the Polypgen dataset.
+  Figure 10: Comparative experimental results on the Polypgen dataset.
 </p>
 
 ### Ablation
@@ -90,7 +90,7 @@ The proposed segmentation framework was systematically evaluated on six widely r
   <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/Results.png"width=50% height=50%>
 </div>
 <p align=center>
-  Figure 9:Visual segmentation performance.
+  Figure 11:Visual segmentation performance.
 </p>
 
 Ablation study results for the MasLVM. The first column shows the original images, followed by segmentation results from each configuration (labeled k, a, b, c, d, e, f, g, h, i, j) in order as follows: (a) No Pre-train, (b) No HDME, (c) No SSE, (d) No SSE and HDME, (e) No MFFM, (f) No KAN Channel Attention, (g) No MFFM and KAN Channel Attention, (h) No iAFF, (i) No KAN multiple self-attention, (j) No iAFF and KAN multiple self-attention and (k) our proposed MasLVM.
@@ -99,27 +99,27 @@ Ablation study results for the MasLVM. The first column shows the original image
   <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ablation1.png"width=50% height=50%>
 </div>
 <p align=center>
-  Figure 9:Analysis experiments to evaluate the effectiveness and robustness of the Tri-Path encoder on the ISIC 2017.
+  Figure 12:Analysis experiments to evaluate the effectiveness and robustness of the Tri-Path encoder on the ISIC 2017.
 </p>
 
 <div align=center>
   <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ablation2.png"width=50% height=50%>
 </div>
 <p align=center>
-  Figure 10:Analysis experiments to evaluate the effectiveness of the KAN channel attention and MFFM in SSE on the ISIC 2017.
+  Figure 13:Analysis experiments to evaluate the effectiveness of the KAN channel attention and MFFM in SSE on the ISIC 2017.
 </p>
 
 <div align=center>
   <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ablation3.png"width=50% height=50%>
 </div>
 <p align=center>
-  Figure 11:Analysis experiments to evaluate the effectiveness of the iAFF and KAN multiple self-attention in mKAN on the ISIC 2017
+  Figure 14:Analysis experiments to evaluate the effectiveness of the iAFF and KAN multiple self-attention in mKAN on the ISIC 2017
 
 <div align=center>
   <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ablation4.png"width=50% height=50%>
 </div>
 <p align=center>
-  Figure 12:Visual segmentation performance.
+  Figure 15:Visual segmentation performance.
 </p>
 
 Illustrations of two separate ablation studies. In (a), Column I displays the original image, Column II shows the  intermediate feature map produced using only SCE, Column III presents the result with two encoder branches incorporating SCE and HDME, Column IV represents the output with SCE and SSE, and Column V shows the output with all three encoder branches combined. In (b), Column I is the original image, Column II shows the result without KAN Channel Attention and MFFM, Column III presents the output without MFFM, Column IV displays the  intermediate feature map displayed without KAN Channel Attention, and Column V includes both modules.
