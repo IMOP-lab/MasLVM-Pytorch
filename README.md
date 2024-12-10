@@ -39,7 +39,12 @@ This repository is the official implementation of MasLVM
 </p>
 
 ## Experiment
-The proposed segmentation framework was systematically evaluated on six widely recognized benchmark datasets.
+### Baselines
+**We have provided the GitHub links to the PyTorch implementation code for some networks compared to the experiments herein.**
+
+[SwinUNETR](https://github.com/LeonidAlekseev/Swin-UNETR), [UNETR](https://github.com/tamasino52/UNETR), [ResUNet](https://github.com/rishikksh20/ResUnet)
+
+**Segmentation results employing the isolated macular hole injection method, comparing the proposed MasLVM and prior segmentation models.**
 <div align=center>
   <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ISIC 2017.png"width=50% height=50%>
 </div>
@@ -91,7 +96,7 @@ The proposed segmentation framework was systematically evaluated on six widely r
   Figure 11:Visual segmentation performance.
 </p>
 
-Ablation study results for the MasLVM. The first column shows the original images, followed by segmentation results from each configuration (labeled k, a, b, c, d, e, f, g, h, i, j) in order as follows: (a) No Pre-train, (b) No HDME, (c) No SSE, (d) No SSE and HDME, (e) No MFFM, (f) No KAN Channel Attention, (g) No MFFM and KAN Channel Attention, (h) No iAFF, (i) No KAN multiple self-attention, (j) No iAFF and KAN multiple self-attention and (k) our proposed MasLVM.
+**Ablation study results for the MasLVM. The first column shows the original images, followed by segmentation results from each configuration (labeled k, a, b, c, d, e, f, g, h, i, j) in order as follows: (a) No Pre-train, (b) No HDME, (c) No SSE, (d) No SSE and HDME, (e) No MFFM, (f) No KAN Channel Attention, (g) No MFFM and KAN Channel Attention, (h) No iAFF, (i) No KAN multiple self-attention, (j) No iAFF and KAN multiple self-attention and (k) our proposed MasLVM.**
 
 <div align=center>
   <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/ablation1.png"width=50% height=50%>
@@ -120,7 +125,7 @@ Ablation study results for the MasLVM. The first column shows the original image
   Figure 15:Visual segmentation performance.
 </p>
 
-Illustrations of two separate ablation studies. In (a), Column I displays the original image, Column II shows the  intermediate feature map produced using only SCE, Column III presents the result with two encoder branches incorporating SCE and HDME, Column IV represents the output with SCE and SSE, and Column V shows the output with all three encoder branches combined. In (b), Column I is the original image, Column II shows the result without KAN Channel Attention and MFFM, Column III presents the output without MFFM, Column IV displays the  intermediate feature map displayed without KAN Channel Attention, and Column V includes both modules.
+**Illustrations of two separate ablation studies. In (a), Column I displays the original image, Column II shows the  intermediate feature map produced using only SCE, Column III presents the result with two encoder branches incorporating SCE and HDME, Column IV represents the output with SCE and SSE, and Column V shows the output with all three encoder branches combined. In (b), Column I is the original image, Column II shows the result without KAN Channel Attention and MFFM, Column III presents the output without MFFM, Column IV displays the  intermediate feature map displayed without KAN Channel Attention, and Column V includes both modules.**
 
 ## License
 This project is licensed under the [MIT license](https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/LICENSE).
