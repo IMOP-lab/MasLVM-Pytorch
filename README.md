@@ -1,13 +1,12 @@
 # Multi-Aspect Fusion in Foundational Large Vision Model for Visible Light Medical Imaging Segmentation
-
+This repository is the official implementation of MasLVM
+## [Project page](https://github.com/IMOP-lab/MasLVM-Pytorch) | [Our laboratory home page](https://github.com/IMOP-lab) 
 Multi-Aspect Fusion in Foundational Large Vision Model for Visible Light Medical Imaging Segmentation
+**Multi-Aspect Fusion in Foundational Large Vision Model for Visible Light Medical Imaging Segmentation.**
 
-Xingru Huang, Tianyun Zhang, Zhaoyang Xu, Jian Huang, Haopeng Huang, Han Yang, Binfeng Zou, Shouqin Ding, Zhao Huang, Huiyu Zhou, Jin Liu, Zhiwen Zheng, Shaowei Jiang, and Xiaoshuai Zhang
+**Hangzhou Dianzi University IMOP-lab**
 
-Hangzhou Dianzi University IMOP-lab
-
-## Methods
-### MasLVM
+### Network structure
 <div align=center>
   <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/MasLVM.png"width=100% height=100%>
 </div>
@@ -15,7 +14,7 @@ Hangzhou Dianzi University IMOP-lab
   Figure 1: Schematic diagram of MasLVM, including an SCE branch, an SSE branch, an HDME branch, and a Multi-Attention KAN Decoder. The 2D input image is first processed through Tri-Path encoder to extract three corresponding types of features. In mKAN, these features are simultaneously fed into the KAN multiple self-attention and iAFF modules for fusion to produce the output.
 </p>
 
-We propose the MasLVM system, by encompassing extensive pretraining on both natural and medical imaging datasets to facilitate broad adaptability. The architecture integrates parallel semantic, spectral, and geometric feature processing pathways, enhancing multi-perspective information encoding. Evaluations across six standard benchmark datasets consistently exhibit MasLVM's advancements in segmentation performance compared to contemporary methods.
+**We propose the MasLVM system, by encompassing extensive pretraining on both natural and medical imaging datasets to facilitate broad adaptability. The architecture integrates parallel semantic, spectral, and geometric feature processing pathways, enhancing multi-perspective information encoding. Evaluations across six standard benchmark datasets consistently exhibit MasLVM's advancements in segmentation performance compared to contemporary methods.**
 
 #### Semantic Context Encoder
 <div align=center>
