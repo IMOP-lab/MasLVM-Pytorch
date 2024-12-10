@@ -1,7 +1,7 @@
 # Multi-Aspect Fusion in Foundational Large Vision Model for Visible Light Medical Imaging Segmentation
 This repository is the official implementation of MasLVM
 ## [Project page](https://github.com/IMOP-lab/MasLVM-Pytorch) | [Our laboratory home page](https://github.com/IMOP-lab) 
-Multi-Aspect Fusion in Foundational Large Vision Model for Visible Light Medical Imaging Segmentation
+
 **Multi-Aspect Fusion in Foundational Large Vision Model for Visible Light Medical Imaging Segmentation.**
 
 **Hangzhou Dianzi University IMOP-lab**
