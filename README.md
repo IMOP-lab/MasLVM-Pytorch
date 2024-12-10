@@ -84,7 +84,8 @@ The proposed segmentation framework was systematically evaluated on six widely r
   Figure 10: Comparative experimental results on the Polypgen dataset.
 </p>
 
-### Ablation
+### Ablation Study
+
 <div align=center>
   <img src="https://github.com/IMOP-lab/MasLVM-Pytorch/blob/master/images/Results.png"width=50% height=50%>
 </div>
